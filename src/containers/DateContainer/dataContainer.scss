@@ -1,0 +1,10 @@
+@import '../../assets/styles/varaiables';
+
+.date-container{
+    .dc-header{
+        display: flex;
+        text-align: start;
+        margin: 10px;
+    }
+    padding: $padding;
+}

@@ -1,0 +1,55 @@
+@import '../../assets/styles/varaiables';
+
+.call-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: $padding;
+    border-radius: $radius;
+    border: $border solid $gray;
+    margin-bottom: $margin;
+
+    &:hover, :focus {
+        border-color: $active;
+    }
+
+    .call-item-body{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      .avatar{
+        width: 50px;
+        height: 50px;
+        border: $border * 2 solid $primary;
+        padding: $padding /2;
+        border-radius: $radius * 2;
+        margin-right: $margin;
+    }
+
+    .call-number{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        
+        .call-type{
+            
+            span{
+              color: $gray; 
+            }
+
+            .miss{
+                width: 20px;
+                height: 20px;
+            }
+        }
+    }
+
+    }
+
+
+
+
+    .call-time{
+        align-items: flex-end;
+    }
+}

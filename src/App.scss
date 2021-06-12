@@ -1,5 +1,10 @@
+@import './assets/styles/varaiables';
 .App {
   text-align: center;
+}
+
+*{
+  font-size: $font-size1;
 }
 
 .App-logo {
