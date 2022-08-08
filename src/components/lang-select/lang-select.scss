@@ -1,0 +1,17 @@
+.lang-select-wrapper{
+    padding: 11px 12px;
+    border-radius: $br-10+px;
+    .lang-select{
+        border-style: none;
+        padding-right:10px;
+        width: 100%;
+        outline: none;
+        background-color: transparent;
+        color: $white;
+        font-family: 'Poppins';
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 18px;
+    
+    }
+}

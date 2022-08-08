@@ -1,0 +1,38 @@
+
+$white:#fff;
+$dark-blue:#151547;
+$light-blue:#232352;
+$blue:#3165F7;
+$gold:#FFBD00;
+$orange:#CB8461;
+$light-gray:#F6F6F7;
+$dark-gray:#64748B;
+
+$colors:(
+    'white':$white,
+    'dark-blue':$dark-blue,
+    'light-blue':$light-blue,
+    'blue':$blue,
+    'gold':$gold,
+    'orange':$orange,
+    'light-gray':$light-gray,
+    'dark-gray':$dark-gray,
+);
+
+@each $key,$val in $colors {
+
+    .color-#{$key}{
+        color: #{$val} !important;
+    }
+
+    .bg-#{$key}{
+        background-color: #{$val} !important;
+    }
+
+    .br-#{$key}{
+        border: 1px solid #{$val} !important;
+    }
+    
+}
+
+

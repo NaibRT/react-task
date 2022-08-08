@@ -1,0 +1,16 @@
+.btn{
+  width: 140px;
+  height: 52px;
+  background-color: $blue;
+  border-radius: $br-10+px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-style: none;
+  color: $white;
+  font-family: 'Poppins';
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 21px;
+  cursor: pointer;
+}

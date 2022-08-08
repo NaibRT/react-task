@@ -1,0 +1,146 @@
+.footer {
+  background-color: $dark-blue;
+  .footer-top {
+    padding: 0px 112px;
+    height: 890px;
+    display: flex;
+    border-bottom: 1px solid $dark-gray;
+    .contact-wrapper {
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      .contact-head {
+        width: 435px;
+        span {
+          font-family: "Poppins";
+          font-size: 14px;
+          font-weight: 600;
+          line-height: 21px;
+          color: $blue;
+        }
+        h1 {
+          font-family: Poppins;
+          font-size: 48px;
+          font-weight: 700;
+          line-height: 72px;
+          color: $white;
+          margin-top: 20px;
+          margin-bottom: 60px;
+        }
+      }
+      .contact-info {
+        margin-bottom: 60px;
+        .ci-head {
+          font-family: "Poppins";
+          font-size: 16px;
+          font-weight: 600;
+          line-height: 24px;
+          color: $white;
+          margin-bottom: 24px;
+        }
+        .contact-info-body {
+          display: flex;
+          flex-wrap: wrap;
+          .contact-info-item {
+            margin-right: 40px;
+            margin-bottom: 30px;
+            display: flex;
+            align-items: center;
+            img {
+              margin-right: 18px;
+            }
+            a {
+              font-family: "Poppins";
+              font-size: 14px;
+              font-weight: 400;
+              line-height: 21px;
+              color: $white;
+              opacity: 0.5;
+              text-decoration: none;
+            }
+          }
+        }
+      }
+
+      .sosila-media {
+        .sm-head {
+          font-family: Poppins;
+          font-size: 16px;
+          font-weight: 600;
+          line-height: 24px;
+          color: $white;
+          margin-bottom: 24px;
+        }
+        .sm-links {
+          display: flex;
+          align-items: center;
+          .sml-item {
+            height: 48px;
+            width: 48px;
+            border-radius: 50%;
+            background-color: $white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-right: 12px;
+          }
+        }
+      }
+    }
+
+    .contact-form {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      .contact-form-wrapper {
+        padding: 60px 80px;
+        box-sizing: border-box;
+        background-color: #232352;
+        width: 680px;
+        border-radius: $br-16 + px;
+
+        .cf-head {
+          font-family: Poppins;
+          font-size: 32px;
+          font-weight: 600;
+          line-height: 48px;
+          letter-spacing: 0px;
+          text-align: left;
+          color: $white;
+          margin: 0px 0px 30px 0px;
+        }
+        .cf-footer{
+          display: flex;
+          justify-content: flex-end;
+        }
+        .cf-options {
+          display: flex;
+          flex-wrap: wrap;
+          border-bottom: 1px solid $dark-gray;
+          padding-bottom: 32px;
+          margin-bottom: 32px;
+
+        }
+      }
+    }
+  }
+
+  .footer-bottom{
+    padding: 50px 112px 32px 112px;
+    .fb-nav{
+        display: flex;
+        justify-content: space-between;
+        border-bottom: 1px solid $dark-gray;
+        padding-bottom: 50px;
+        margin-bottom: 32px;
+    }
+    .fb-copyright{
+        font-family: 'Poppins';
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 21px;
+        color: $white;
+    }
+  }
+}

@@ -1,0 +1,64 @@
+.accardion{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   .accardion-wrapper{
+     .accardion-item{
+         height: 70px;
+         width: 700px;
+         box-sizing: border-box;
+         background-color: $light-gray;
+         border-radius: $br-16+px;
+         margin-bottom: 20px;
+         overflow: hidden;
+         padding: 24px 32px;
+         cursor: pointer;
+         .accardion-head{
+            //height: 70px;
+            margin: 0px;
+            font-family: 'Poppins';
+            font-size: 14px;
+            font-weight: 500;
+            line-height: 21px;
+            color: $dark-gray;
+            position: relative;
+            margin-bottom: 24px;
+
+           &::after{
+            content: '';
+            transition:all .5s ease ;
+            position: absolute;
+            top: 0px;
+            right: 32px;
+            z-index: 1;
+            width: 16px;
+            height: 16px;
+            background: url('../../assets/icons/Arrow - Down 2.png') no-repeat center;
+            background-size: cover;
+           }
+         }
+         p{
+            font-family: 'Poppins';
+            font-size: 12px;
+            font-weight: 400;
+            line-height: 18px;
+            color: $dark-gray;
+            width: 556px;
+            margin: 0px;
+            
+         }
+     }
+   } 
+}
+
+.accardion-item-active{
+    height: auto !important;
+    .accardion-head{
+        &::after{
+
+            transform: rotate(180deg) !important;
+        }
+    }
+}

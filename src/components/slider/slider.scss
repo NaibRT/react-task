@@ -1,0 +1,17 @@
+.mySwiper{
+    width: 100%;
+    .swiper-wrapper{
+        .swiper-slide{
+            width: auto;
+            .slider-item{
+                height: 124px;
+                background-color: $light-gray;
+                border-radius: $br-10+px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                padding: 0px 48px;
+            }
+        }
+    }
+}

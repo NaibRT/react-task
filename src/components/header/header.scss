@@ -1,0 +1,13 @@
+.header{
+    display: flex;
+    align-items: center;
+    background-color: $dark-blue;
+    padding: 0px 112px;
+  .header-logo{
+    display: flex;
+    align-items: center;
+    img{
+        margin-right: 20px;
+    }
+  }  
+}
